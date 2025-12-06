@@ -1,3 +1,2 @@
-var age;
-// console.log(age);
-// age = 23;
+
+//shift -> remove item from start of the array.

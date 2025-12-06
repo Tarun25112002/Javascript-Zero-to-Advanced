@@ -6,4 +6,8 @@ let fruits = ["Apple", "Mango", "Banana",["Badam", "Kaju", ["Tarun", "Kumar"]]]
 //shift -> remove item from start of the array.
 // ...fruits -> spread operator it spread all items inside array
 //example for nested array we use flat(Infinity)
-console.log(...fruits.flat(Infinity))
+// console.log(...fruits.flat(Infinity))
+let dryfruits = fruits.slice(0)
+fruits.push("Sugar")
+console.log(dryfruits)
+console.log(fruits)
