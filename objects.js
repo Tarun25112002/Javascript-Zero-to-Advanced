@@ -40,6 +40,7 @@ let user = {
 //console.log(Object.keys(user))
 // it is returning an array of keys so now we ca check its type
 //console.log(typeof Object.keys(user))
+//here i am iterating this object by converting its key into array by using Object.keys and then we can use for of loop to iterate.
 let myArray = Object.keys(user)
 for(let key of myArray){
     console.log(user[key]);
