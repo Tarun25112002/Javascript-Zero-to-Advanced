@@ -25,11 +25,11 @@
 
 
 //iteration in objects
-let user = {
-    name: "Tarun",
-    dob: 25112002,
-    subjects: ["maths", "science", "eng", "sst"]
-}
+// let user = {
+//     name: "Tarun",
+//     dob: 25112002,
+//     subjects: ["maths", "science", "eng", "sst"]
+// }
 // for (let key in user){
 //     console.log(key, user[key]);
     
@@ -41,7 +41,20 @@ let user = {
 // it is returning an array of keys so now we ca check its type
 //console.log(typeof Object.keys(user))
 //here i am iterating this object by converting its key into array by using Object.keys and then we can use for of loop to iterate.
-let myArray = Object.keys(user)
-for(let key of myArray){
-    console.log(user[key]);
-}
+// let myArray = Object.keys(user)
+// for(let key of myArray){
+//     console.log(user[key]);
+// }
+
+//computed properties
+// const key1 = "name"
+// const key2 = "age"
+
+// const val1 = "Tarun"
+// const val2 = 23;
+
+// let obj = {}
+// obj[key1]= val1
+// obj[key2]=val2
+// console.log(obj);
+
